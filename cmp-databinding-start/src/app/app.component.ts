@@ -27,4 +27,8 @@ export class AppComponent {
       content: blueprintData.serverContent,
     });
   }
+
+  Destroy(){
+    this.serverElements.splice(0,1);
+  }
 }

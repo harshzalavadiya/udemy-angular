@@ -2,8 +2,10 @@
   <app-cockpit
   (serverCreated)="onServerAdded($event)"
   (blueprintCreated)="onBlueprintAdded($event)"
-  ></app-cockpit>
+  ><b>lol</b></app-cockpit>
   <hr>
+  <button class="btn btn-danger" (click)="Destroy()">Destroy First</button>
+  <hr/>
   <div class="row">
     <div class="col-xs-12">
       <app-server-element 
